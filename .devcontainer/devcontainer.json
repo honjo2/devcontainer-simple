@@ -3,6 +3,9 @@
 	"name": "Node.js",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:16-bullseye",
 
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
 	"customizations": {
 		"vscode": {
 			"settings": {},			
